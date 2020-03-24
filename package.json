@@ -1,5 +1,5 @@
 {
-  "name": "compontent-testing",
+  "name": "kclsu-compontent-testing",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.js",
@@ -22,7 +22,7 @@
     "generate": "stencil generate"
   },
   "devDependencies": {
-    "@stencil/core": "^1.8.4"
+    "@stencil/core": "^1.11.2"
   },
   "license": "MIT",
   "dependencies": {

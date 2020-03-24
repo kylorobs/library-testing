@@ -215,7 +215,7 @@ export namespace Components {
     'innertab': boolean;
   }
   interface VarsityLanding {
-    'currentDate': any;
+    'currentDate': { weekday: string; day: any; month: string; year: any; hours: any; minutes: any; };
     'year': string;
   }
   interface VarsityNextMatches {
@@ -871,7 +871,7 @@ declare namespace LocalJSX {
     'innertab'?: boolean;
   }
   interface VarsityLanding {
-    'currentDate'?: any;
+    'currentDate'?: { weekday: string; day: any; month: string; year: any; hours: any; minutes: any; };
     'year'?: string;
   }
   interface VarsityNextMatches {
