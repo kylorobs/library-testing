@@ -1,0 +1,25 @@
+@import '../../../../src/global/globalstyles.css';
+
+.kclsu-tabs {
+    margin: 4em;
+}
+
+.kclsu-tab-headers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+    margin: 0;
+    background-color: #e8e8e2;  
+}
+
+.kclsu-tab-headers {
+    padding: 10px
+}
+
+
+@media only screen and (max-width: 780px){
+    .kclsu-tabs {
+        margin: 0.5em;
+    }
+}

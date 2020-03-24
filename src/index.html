@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Component Starter</title>
+  <script src="https://unpkg.com/bulmil/latest/dist/bulmil.js"></script>
+  
+  <link rel="stylesheet" href="https://use.typekit.net/mgu1jus.css">
+  <script type="module" src="/build/compontent-testing.esm.js"></script>
+  <script nomodule src="/build/compontent-testing.js"></script>
+
+</head>
+<body>
+  
+  <profile-tabs activeid="upcoming" 
+  database="https://bush-house-sessions.firebaseio.com/artists.json"
+  headings='[["Coming Up", "upcoming"], ["Artists (Xhibit)", "xhibitArtists"], ["Creators (Xtend)", "specialActs"], ["Performers (Xpress)", "performers"]]'></profile-tabs>
+
+</body>
+</html>
