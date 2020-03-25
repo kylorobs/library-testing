@@ -7,7 +7,7 @@ import { Component, Prop, Host, h } from '@stencil/core';
 
 export class AccordionDropdown {
 
-  @Prop() header: string;
+  @Prop() header!: string;
 
   render() {
     return (
