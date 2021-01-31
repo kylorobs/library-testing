@@ -1,15 +1,5 @@
 # profile-card
 
-These cards MUST go inside a Profile Card Layout Container.
-
-```
-  <profile-card
-        name=" ${INSERT_NAME} "
-        cta=" ${INSERT_CTA} "
-        image=" ${INSERT_IMAGE} "
-        secondlink= " ${INSERT_SECOND_LINK} "
-    ></profile-card>
-```
 
 
 <!-- Auto Generated Below -->
@@ -40,7 +30,6 @@ These cards MUST go inside a Profile Card Layout Container.
 
 ### Used by
 
- - [candidate-display](../../elections/elections-candidates/candidates-display)
  - [profile-tabs](../../profiles)
 
 ### Depends on
@@ -53,7 +42,6 @@ These cards MUST go inside a Profile Card Layout Container.
 graph TD;
   profile-card --> loading-spinner
   profile-card --> flex-container
-  candidate-display --> profile-card
   profile-tabs --> profile-card
   style profile-card fill:#f9f,stroke:#333,stroke-width:4px
 ```

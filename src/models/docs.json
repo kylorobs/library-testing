@@ -1,0 +1,3705 @@
+{
+    "timestamp": "2020-03-25T11:18:11",
+    "compiler": {
+      "name": "@stencil/core",
+      "version": "1.11.2",
+      "typescriptVersion": "3.8.3"
+    },
+    "components": [
+      {
+        "filePath": "./src/components/elections/elections-candidates/academic-candidates-display/academic-candidate-display.tsx",
+        "encapsulation": "shadow",
+        "tag": "academic-candidate-display",
+        "readme": "# academic-candidate-display\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "data",
+            "type": "any",
+            "mutable": false,
+            "attr": "data",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "any"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "elections-candidates"
+        ],
+        "dependencies": [
+          "candidate-display"
+        ],
+        "dependencyGraph": {
+          "academic-candidate-display": [
+            "candidate-display"
+          ],
+          "candidate-display": [
+            "profile-card",
+            "profile-card-layout"
+          ],
+          "profile-card": [
+            "loading-spinner",
+            "flex-container"
+          ],
+          "elections-candidates": [
+            "academic-candidate-display"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/accordion/accordion-container.tsx",
+        "encapsulation": "none",
+        "tag": "accordion-container",
+        "readme": "# accordion-container\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [],
+        "dependencyGraph": {}
+      },
+      {
+        "filePath": "./src/components/accordion/accordion-dropdown/accordion-dropdown.tsx",
+        "encapsulation": "shadow",
+        "tag": "accordion-dropdown",
+        "readme": "# accordion-dropdown\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "header",
+            "type": "string",
+            "mutable": false,
+            "attr": "header",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": true
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [],
+        "dependencyGraph": {}
+      },
+      {
+        "filePath": "./src/components/varsity/add-varsity-scores/add-varsity-scores.tsx",
+        "encapsulation": "shadow",
+        "tag": "add-varsity-scores",
+        "readme": "# add-varsity-scores\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "year",
+            "type": "string",
+            "mutable": false,
+            "attr": "year",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [
+          {
+            "event": "exitModal",
+            "capture": false,
+            "passive": false
+          }
+        ],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [
+          "kclsu-modal",
+          "flex-container"
+        ],
+        "dependencyGraph": {
+          "add-varsity-scores": [
+            "kclsu-modal",
+            "flex-container"
+          ],
+          "kclsu-modal": [
+            "modal-backdrop"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/campaigns/campaign-aim/campaign-aim.tsx",
+        "encapsulation": "none",
+        "tag": "campaign-aim",
+        "readme": "# campaign-aim\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [
+          "page-content"
+        ],
+        "dependencyGraph": {
+          "campaign-aim": [
+            "page-content"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/campaigns/campaign-aim-container/campaign-aim-container.tsx",
+        "encapsulation": "none",
+        "tag": "campaign-aim-container",
+        "readme": "# campaign-aim-container\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "campaignname",
+            "type": "string",
+            "mutable": false,
+            "attr": "campaignname",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "campaign-page"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "campaign-page": [
+            "campaign-aim-container"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/campaigns/campaign-news/campaign-news.tsx",
+        "encapsulation": "none",
+        "tag": "campaign-news",
+        "readme": "# campaign-news\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "newsid",
+            "type": "string",
+            "mutable": false,
+            "attr": "newsid",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "campaign-tabs"
+        ],
+        "dependencies": [
+          "news-card"
+        ],
+        "dependencyGraph": {
+          "campaign-news": [
+            "news-card"
+          ],
+          "campaign-tabs": [
+            "campaign-news"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/campaigns/campaign-page/campaign-page.tsx",
+        "encapsulation": "none",
+        "tag": "campaign-page",
+        "readme": "# campaign-page\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "campaignId",
+            "type": "number",
+            "mutable": false,
+            "attr": "campaign-id",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "number"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "mutable": false,
+            "attr": "name",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [
+          "campaign-aim-container",
+          "campaign-tabs"
+        ],
+        "dependencyGraph": {
+          "campaign-page": [
+            "campaign-aim-container",
+            "campaign-tabs"
+          ],
+          "campaign-tabs": [
+            "page-content",
+            "kclsu-tabs-container",
+            "campaign-news",
+            "primary-button"
+          ],
+          "campaign-news": [
+            "news-card"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/campaigns/campaign-tabs/campaign-tabs.tsx",
+        "encapsulation": "none",
+        "tag": "campaign-tabs",
+        "readme": "# campaign-tabs\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "facebook",
+            "type": "string",
+            "mutable": false,
+            "attr": "facebook",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "newsid",
+            "type": "string",
+            "mutable": false,
+            "attr": "newsid",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "socials",
+            "type": "string",
+            "mutable": false,
+            "attr": "socials",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "strategydoc",
+            "type": "string",
+            "mutable": false,
+            "attr": "strategydoc",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "campaign-page"
+        ],
+        "dependencies": [
+          "page-content",
+          "kclsu-tabs-container",
+          "campaign-news",
+          "primary-button"
+        ],
+        "dependencyGraph": {
+          "campaign-tabs": [
+            "page-content",
+            "kclsu-tabs-container",
+            "campaign-news",
+            "primary-button"
+          ],
+          "campaign-news": [
+            "news-card"
+          ],
+          "campaign-page": [
+            "campaign-tabs"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/elections/elections-candidates/candidates-display/candidates-display.tsx",
+        "encapsulation": "none",
+        "tag": "candidate-display",
+        "readme": "# candidate-display\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "data",
+            "type": "any",
+            "mutable": false,
+            "attr": "data",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "any"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "academic-candidate-display",
+          "elections-candidates"
+        ],
+        "dependencies": [
+          "profile-card",
+          "profile-card-layout"
+        ],
+        "dependencyGraph": {
+          "candidate-display": [
+            "profile-card",
+            "profile-card-layout"
+          ],
+          "profile-card": [
+            "loading-spinner",
+            "flex-container"
+          ],
+          "academic-candidate-display": [
+            "candidate-display"
+          ],
+          "elections-candidates": [
+            "candidate-display"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/cloudinary/cloudinary-app.tsx",
+        "encapsulation": "none",
+        "tag": "cloudinary-app",
+        "readme": "# cloudinary-app\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "public_id",
+            "type": "string",
+            "mutable": false,
+            "attr": "public_id",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [
+          {
+            "event": "selectPreset",
+            "capture": false,
+            "passive": false
+          },
+          {
+            "event": "submitEdits",
+            "capture": false,
+            "passive": false
+          },
+          {
+            "event": "emitClick",
+            "capture": false,
+            "passive": false
+          }
+        ],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [
+          "preset-card",
+          "flex-container",
+          "kclsu-button",
+          "preset-controls",
+          "loading-spinner"
+        ],
+        "dependencyGraph": {
+          "cloudinary-app": [
+            "preset-card",
+            "flex-container",
+            "kclsu-button",
+            "preset-controls",
+            "loading-spinner"
+          ],
+          "kclsu-button": [
+            "flex-container"
+          ],
+          "preset-controls": [
+            "kclsu-modal",
+            "flex-container",
+            "kclsu-button"
+          ],
+          "kclsu-modal": [
+            "modal-backdrop"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/varsity/create-varsity-data/create-varsity-data.tsx",
+        "encapsulation": "shadow",
+        "tag": "create-varsity-data",
+        "readme": "# create-varsity-data\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "allowcreate",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "allowcreate",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "allowupdate",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "allowupdate",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "msltag",
+            "type": "string",
+            "mutable": false,
+            "attr": "msltag",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "test",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "test",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "year",
+            "type": "string",
+            "mutable": false,
+            "attr": "year",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [
+          {
+            "event": "exitModal",
+            "capture": false,
+            "passive": false
+          }
+        ],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [
+          "flex-container",
+          "kclsu-modal"
+        ],
+        "dependencyGraph": {
+          "create-varsity-data": [
+            "flex-container",
+            "kclsu-modal"
+          ],
+          "kclsu-modal": [
+            "modal-backdrop"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/elections/elections-candidates/elections-candidates.tsx",
+        "encapsulation": "shadow",
+        "tag": "elections-candidates",
+        "readme": "# elections-candidates\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "results",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "results",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [
+          "inner-tab-header",
+          "inner-tab-content",
+          "candidate-display",
+          "tabs-container",
+          "tab-header",
+          "tab-content",
+          "inner-tabs-container",
+          "academic-candidate-display"
+        ],
+        "dependencyGraph": {
+          "elections-candidates": [
+            "inner-tab-header",
+            "inner-tab-content",
+            "candidate-display",
+            "tabs-container",
+            "tab-header",
+            "tab-content",
+            "inner-tabs-container",
+            "academic-candidate-display"
+          ],
+          "candidate-display": [
+            "profile-card",
+            "profile-card-layout"
+          ],
+          "profile-card": [
+            "loading-spinner",
+            "flex-container"
+          ],
+          "academic-candidate-display": [
+            "candidate-display"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/elections/elections-footer/elections-footer.tsx",
+        "encapsulation": "shadow",
+        "tag": "elections-footer",
+        "readme": "# elections-footer\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [
+          "purple-button"
+        ],
+        "dependencyGraph": {
+          "elections-footer": [
+            "purple-button"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/containers/flex-container/flex-container.tsx",
+        "encapsulation": "none",
+        "tag": "flex-container",
+        "readme": "# flex-container\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "alignx",
+            "type": "string",
+            "mutable": false,
+            "attr": "alignx",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "aligny",
+            "type": "string",
+            "mutable": false,
+            "attr": "aligny",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "direction",
+            "type": "string",
+            "mutable": false,
+            "attr": "direction",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "fillContainer",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "fill-container",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "mobcolumn",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "mobcolumn",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "wrap",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "wrap",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "add-varsity-scores",
+          "cloudinary-app",
+          "create-varsity-data",
+          "full-bio",
+          "kclsu-button",
+          "last-year-scores",
+          "preset-controls",
+          "profile-card",
+          "varsity-landing",
+          "varsity-total-score",
+          "varsity-weather"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "add-varsity-scores": [
+            "flex-container"
+          ],
+          "cloudinary-app": [
+            "flex-container"
+          ],
+          "create-varsity-data": [
+            "flex-container"
+          ],
+          "full-bio": [
+            "flex-container"
+          ],
+          "kclsu-button": [
+            "flex-container"
+          ],
+          "last-year-scores": [
+            "flex-container"
+          ],
+          "preset-controls": [
+            "flex-container"
+          ],
+          "profile-card": [
+            "flex-container"
+          ],
+          "varsity-landing": [
+            "flex-container"
+          ],
+          "varsity-total-score": [
+            "flex-container"
+          ],
+          "varsity-weather": [
+            "flex-container"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/profiles/bio/full-bio.tsx",
+        "encapsulation": "shadow",
+        "tag": "full-bio",
+        "readme": "# full-bio\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "data",
+            "type": "any",
+            "mutable": false,
+            "attr": "data",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "any"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "profile-tabs"
+        ],
+        "dependencies": [
+          "kclsu-button",
+          "flex-container"
+        ],
+        "dependencyGraph": {
+          "full-bio": [
+            "kclsu-button",
+            "flex-container"
+          ],
+          "kclsu-button": [
+            "flex-container"
+          ],
+          "profile-tabs": [
+            "full-bio"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/containers/fullwidth-beige-strip/fullwidth-beige-strip.tsx",
+        "encapsulation": "none",
+        "tag": "fullwidth-beige-strip",
+        "readme": "# fullwidth-beige-strip\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "get-involved"
+        ],
+        "dependencies": [
+          "page-content"
+        ],
+        "dependencyGraph": {
+          "fullwidth-beige-strip": [
+            "page-content"
+          ],
+          "get-involved": [
+            "fullwidth-beige-strip"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/containers/fullwidth-strip/fullwidth-strip.tsx",
+        "encapsulation": "none",
+        "tag": "fullwidth-strip",
+        "readme": "# fullwidth-strip\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "color",
+            "type": "string",
+            "mutable": false,
+            "attr": "color",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "'#502765'",
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "height",
+            "type": "string",
+            "mutable": false,
+            "attr": "height",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "''",
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "quick-links"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "quick-links": [
+            "fullwidth-strip"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/campaigns/get-involved/get-involved.tsx",
+        "encapsulation": "none",
+        "tag": "get-involved",
+        "readme": "# get-involved\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "typeform",
+            "type": "string",
+            "mutable": false,
+            "attr": "typeform",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [
+          "fullwidth-beige-strip"
+        ],
+        "dependencyGraph": {
+          "get-involved": [
+            "fullwidth-beige-strip"
+          ],
+          "fullwidth-beige-strip": [
+            "page-content"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/containers/grid-landing/grid-landing.tsx",
+        "encapsulation": "shadow",
+        "tag": "grid-landing",
+        "readme": "# grid-landing\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [],
+        "dependencyGraph": {}
+      },
+      {
+        "filePath": "./src/components/containers/grid-landing/grid-landing-item/grid-landing-item.tsx",
+        "encapsulation": "shadow",
+        "tag": "grid-landing-item",
+        "readme": "# grid-landing-item\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "height",
+            "type": "string",
+            "mutable": false,
+            "attr": "height",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "mutable": false,
+            "attr": "label",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "''",
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "width",
+            "type": "string",
+            "mutable": false,
+            "attr": "width",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [],
+        "dependencyGraph": {}
+      },
+      {
+        "filePath": "./src/components/images/image-fit-container/image-fit-container.tsx",
+        "encapsulation": "none",
+        "tag": "image-fit-container",
+        "readme": "# image-fit-container\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "alt",
+            "type": "string",
+            "mutable": false,
+            "attr": "alt",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "classes",
+            "type": "string[]",
+            "mutable": false,
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string[]"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "src",
+            "type": "string",
+            "mutable": false,
+            "attr": "src",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "varsity-landing"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "varsity-landing": [
+            "image-fit-container"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/images/image-slider-auto/image-slider-auto.tsx",
+        "encapsulation": "none",
+        "tag": "image-slider-auto",
+        "readme": "# image-slider-auto\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "classes",
+            "type": "string",
+            "mutable": false,
+            "attr": "classes",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "'slide-in-right'",
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "images",
+            "type": "string[]",
+            "mutable": false,
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string[]"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "interval",
+            "type": "number",
+            "mutable": false,
+            "attr": "interval",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "number"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [
+          {
+            "name": "---------------------------------------- animation slide-in-right ----------------------------------------",
+            "annotation": "prop",
+            "docs": ""
+          }
+        ],
+        "slots": [],
+        "dependents": [
+          "varsity-landing"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "varsity-landing": [
+            "image-slider-auto"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/images/image-text/image-text.tsx",
+        "encapsulation": "shadow",
+        "tag": "image-text",
+        "readme": "# image-text\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "image",
+            "type": "string",
+            "mutable": false,
+            "attr": "image",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "switch",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "switch",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "mutable": false,
+            "attr": "text",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "mutable": false,
+            "attr": "title",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [
+          "page-content"
+        ],
+        "dependencyGraph": {
+          "image-text": [
+            "page-content"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/tabs/innertabs/inner-tab-content/inner-tab-content.tsx",
+        "encapsulation": "shadow",
+        "tag": "inner-tab-content",
+        "readme": "# inner-tab-content\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "active",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "active",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "false",
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "mutable": false,
+            "attr": "name",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "elections-candidates"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "elections-candidates": [
+            "inner-tab-content"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/tabs/innertabs/inner-tab-header/inner-tab-header.tsx",
+        "encapsulation": "shadow",
+        "tag": "inner-tab-header",
+        "readme": "# inner-tab-header\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "active",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "active",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "false",
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "mutable": false,
+            "attr": "name",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [
+          {
+            "event": "selectInnerTab",
+            "detail": "any",
+            "bubbles": true,
+            "cancelable": true,
+            "composed": true,
+            "docs": "",
+            "docsTags": []
+          }
+        ],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "elections-candidates"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "elections-candidates": [
+            "inner-tab-header"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/tabs/innertabs/inner-tabs-container.tsx",
+        "encapsulation": "shadow",
+        "tag": "inner-tabs-container",
+        "readme": "# inner-tabs-container\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "innertab",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "innertab",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "false",
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [
+          {
+            "event": "selectInnerTab",
+            "capture": false,
+            "passive": false
+          }
+        ],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "elections-candidates"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "elections-candidates": [
+            "inner-tabs-container"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/buttons/kclsu-button/kclsu-button.tsx",
+        "encapsulation": "shadow",
+        "tag": "kclsu-button",
+        "readme": "# kclsu-button\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "center",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "center",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "download",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "download",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "emitid",
+            "type": "string",
+            "mutable": false,
+            "attr": "emitid",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "green",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "green",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "icon",
+            "type": "string",
+            "mutable": false,
+            "attr": "icon",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "link",
+            "type": "string",
+            "mutable": false,
+            "attr": "link",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "purple",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "purple",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "rounded",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "rounded",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "small",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "small",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "mutable": false,
+            "attr": "text",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [
+          {
+            "event": "emitClick",
+            "detail": "any",
+            "bubbles": true,
+            "cancelable": true,
+            "composed": true,
+            "docs": "",
+            "docsTags": []
+          }
+        ],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "cloudinary-app",
+          "full-bio",
+          "preset-controls"
+        ],
+        "dependencies": [
+          "flex-container"
+        ],
+        "dependencyGraph": {
+          "kclsu-button": [
+            "flex-container"
+          ],
+          "cloudinary-app": [
+            "kclsu-button"
+          ],
+          "full-bio": [
+            "kclsu-button"
+          ],
+          "preset-controls": [
+            "kclsu-button"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/modal/kclsu-modal.tsx",
+        "encapsulation": "shadow",
+        "tag": "kclsu-modal",
+        "readme": "# modal-backdrop\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "show",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "show",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "false",
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "add-varsity-scores",
+          "create-varsity-data",
+          "last-year-scores",
+          "preset-controls",
+          "profile-tabs",
+          "varsity-landing",
+          "varsity-upcoming"
+        ],
+        "dependencies": [
+          "modal-backdrop"
+        ],
+        "dependencyGraph": {
+          "kclsu-modal": [
+            "modal-backdrop"
+          ],
+          "add-varsity-scores": [
+            "kclsu-modal"
+          ],
+          "create-varsity-data": [
+            "kclsu-modal"
+          ],
+          "last-year-scores": [
+            "kclsu-modal"
+          ],
+          "preset-controls": [
+            "kclsu-modal"
+          ],
+          "profile-tabs": [
+            "kclsu-modal"
+          ],
+          "varsity-landing": [
+            "kclsu-modal"
+          ],
+          "varsity-upcoming": [
+            "kclsu-modal"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/tabs/kclsu-tabs/kclsu-tabs-container.tsx",
+        "encapsulation": "none",
+        "tag": "kclsu-tabs-container",
+        "readme": "# kclsu-tabs-container\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "campaign-tabs"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "campaign-tabs": [
+            "kclsu-tabs-container"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/cards/label-card/label-card.tsx",
+        "encapsulation": "shadow",
+        "tag": "label-card",
+        "readme": "# label-card\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "buttonLink",
+            "type": "string",
+            "mutable": false,
+            "attr": "button-link",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "buttonTitle",
+            "type": "string",
+            "mutable": false,
+            "attr": "button-title",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "'Find out more'",
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "cardtitle",
+            "type": "string",
+            "mutable": false,
+            "attr": "cardtitle",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "image",
+            "type": "string",
+            "mutable": false,
+            "attr": "image",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "'https://res.cloudinary.com/kclsu-media/image/upload/c_fill,f_auto,fl_any_format,h_90,q_93,w_90/v1573644938/website_uploads/KCLSU%20Brand/db75df131542437eb3da2415c7f91fc6_hhoknp.jpg'",
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "reverse",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "reverse",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "mutable": false,
+            "attr": "text",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "''",
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "varsity-landing",
+          "varsity-next-matches"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "varsity-landing": [
+            "label-card"
+          ],
+          "varsity-next-matches": [
+            "label-card"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/varsity/varsity-landing/last-year-scores/last-year-scores.tsx",
+        "encapsulation": "shadow",
+        "tag": "last-year-scores",
+        "readme": "# last-year-scores\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [],
+        "methods": [],
+        "events": [],
+        "listeners": [
+          {
+            "event": "exitModal",
+            "capture": false,
+            "passive": false
+          }
+        ],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "varsity-landing"
+        ],
+        "dependencies": [
+          "flex-container",
+          "kclsu-modal"
+        ],
+        "dependencyGraph": {
+          "last-year-scores": [
+            "flex-container",
+            "kclsu-modal"
+          ],
+          "kclsu-modal": [
+            "modal-backdrop"
+          ],
+          "varsity-landing": [
+            "last-year-scores"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/spinner/loading-spinner.tsx",
+        "encapsulation": "shadow",
+        "tag": "loading-spinner",
+        "readme": "# loading-spinner\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "show",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "show",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "true",
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "cloudinary-app",
+          "profile-card"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "cloudinary-app": [
+            "loading-spinner"
+          ],
+          "profile-card": [
+            "loading-spinner"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/modal/modal-backdrop.tsx",
+        "encapsulation": "none",
+        "tag": "modal-backdrop",
+        "readme": "# modal-backdrop\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "showbg",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "showbg",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [
+          {
+            "event": "exitModal",
+            "detail": "any",
+            "bubbles": true,
+            "cancelable": true,
+            "composed": true,
+            "docs": "",
+            "docsTags": []
+          }
+        ],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "kclsu-modal"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "kclsu-modal": [
+            "modal-backdrop"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/my-component/my-component.tsx",
+        "encapsulation": "shadow",
+        "tag": "my-component",
+        "readme": "# my-component\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "first",
+            "type": "string",
+            "mutable": false,
+            "attr": "first",
+            "reflectToAttr": false,
+            "docs": "The first name",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "last",
+            "type": "string",
+            "mutable": false,
+            "attr": "last",
+            "reflectToAttr": false,
+            "docs": "The last name",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "middle",
+            "type": "string",
+            "mutable": false,
+            "attr": "middle",
+            "reflectToAttr": false,
+            "docs": "The middle name",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [],
+        "dependencyGraph": {}
+      },
+      {
+        "filePath": "./src/components/cards/news-card/news-card.tsx",
+        "encapsulation": "none",
+        "tag": "news-card",
+        "readme": "# news-card\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "newslink",
+            "type": "string",
+            "mutable": false,
+            "attr": "newslink",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "newstitle",
+            "type": "string",
+            "mutable": false,
+            "attr": "newstitle",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "campaign-news"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "campaign-news": [
+            "news-card"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/containers/page-content/page-content.tsx",
+        "encapsulation": "none",
+        "tag": "page-content",
+        "readme": "# page-content\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "campaign-aim",
+          "campaign-tabs",
+          "fullwidth-beige-strip",
+          "image-text",
+          "show-support"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "campaign-aim": [
+            "page-content"
+          ],
+          "campaign-tabs": [
+            "page-content"
+          ],
+          "fullwidth-beige-strip": [
+            "page-content"
+          ],
+          "image-text": [
+            "page-content"
+          ],
+          "show-support": [
+            "page-content"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/cloudinary/preset-card/preset-card.tsx",
+        "encapsulation": "shadow",
+        "tag": "preset-card",
+        "readme": "# preset-card\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "dimensions",
+            "type": "string",
+            "mutable": false,
+            "attr": "dimensions",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "presetid",
+            "type": "string",
+            "mutable": false,
+            "attr": "presetid",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "presetname",
+            "type": "string",
+            "mutable": false,
+            "attr": "presetname",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [
+          {
+            "event": "selectPreset",
+            "detail": "any",
+            "bubbles": true,
+            "cancelable": true,
+            "composed": true,
+            "docs": "",
+            "docsTags": []
+          }
+        ],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "cloudinary-app"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "cloudinary-app": [
+            "preset-card"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/cloudinary/preset-controls/preset-controls.tsx",
+        "encapsulation": "none",
+        "tag": "preset-controls",
+        "readme": "# preset-controls\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [],
+        "methods": [],
+        "events": [
+          {
+            "event": "submitEdits",
+            "detail": "any",
+            "bubbles": true,
+            "cancelable": true,
+            "composed": true,
+            "docs": "",
+            "docsTags": []
+          }
+        ],
+        "listeners": [
+          {
+            "event": "emitClick",
+            "capture": false,
+            "passive": false
+          }
+        ],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "cloudinary-app"
+        ],
+        "dependencies": [
+          "kclsu-modal",
+          "flex-container",
+          "kclsu-button"
+        ],
+        "dependencyGraph": {
+          "preset-controls": [
+            "kclsu-modal",
+            "flex-container",
+            "kclsu-button"
+          ],
+          "kclsu-modal": [
+            "modal-backdrop"
+          ],
+          "kclsu-button": [
+            "flex-container"
+          ],
+          "cloudinary-app": [
+            "preset-controls"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/buttons/primary-button/primary-button.tsx",
+        "encapsulation": "none",
+        "tag": "primary-button",
+        "readme": "# primary-button\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "to",
+            "type": "string",
+            "mutable": false,
+            "attr": "to",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "campaign-tabs"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "campaign-tabs": [
+            "primary-button"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/cards/profile-card/profile-card.tsx",
+        "encapsulation": "shadow",
+        "tag": "profile-card",
+        "readme": "# profile-card\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "cta",
+            "type": "string",
+            "mutable": false,
+            "attr": "cta",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "'Find Out More'",
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "emitid",
+            "type": "string",
+            "mutable": false,
+            "attr": "emitid",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "image",
+            "type": "string",
+            "mutable": false,
+            "attr": "image",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "'https://res.cloudinary.com/kclsu-media/image/upload/f_auto,fl_any_format,g_center,q_100/v1581516201/website_uploads/KCLSU%20Brand/Bzcl1r6L_400x400_se7grm.jpg'",
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "link",
+            "type": "string",
+            "mutable": false,
+            "attr": "link",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "mutable": false,
+            "attr": "name",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "position",
+            "type": "string",
+            "mutable": false,
+            "attr": "position",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "secondcta",
+            "type": "string",
+            "mutable": false,
+            "attr": "secondcta",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "secondlink",
+            "type": "string",
+            "mutable": false,
+            "attr": "secondlink",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [
+          {
+            "event": "emitClick",
+            "detail": "any",
+            "bubbles": true,
+            "cancelable": true,
+            "composed": true,
+            "docs": "",
+            "docsTags": []
+          }
+        ],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "candidate-display",
+          "profile-tabs"
+        ],
+        "dependencies": [
+          "loading-spinner",
+          "flex-container"
+        ],
+        "dependencyGraph": {
+          "profile-card": [
+            "loading-spinner",
+            "flex-container"
+          ],
+          "candidate-display": [
+            "profile-card"
+          ],
+          "profile-tabs": [
+            "profile-card"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/containers/profile-card-layout/profile-card-layout.tsx",
+        "encapsulation": "shadow",
+        "tag": "profile-card-layout",
+        "readme": "# profile-card-layout\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "candidate-display",
+          "profile-tabs"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "candidate-display": [
+            "profile-card-layout"
+          ],
+          "profile-tabs": [
+            "profile-card-layout"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/profiles/profile-tabs.tsx",
+        "encapsulation": "shadow",
+        "tag": "profile-tabs",
+        "readme": "# profile-tabs\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "activeid",
+            "type": "string",
+            "mutable": false,
+            "attr": "activeid",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "'Tab1'",
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "database",
+            "type": "string",
+            "mutable": false,
+            "attr": "database",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "headings",
+            "type": "any",
+            "mutable": false,
+            "attr": "headings",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "[['First Tab', 'Tab1', 'A maximum of two lines of text can go here. This is meant only as a brief introduction'], ['Second Tab', 'Tab2']]",
+            "values": [
+              {
+                "type": "any"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [
+          {
+            "event": "emitClick",
+            "capture": false,
+            "passive": false
+          },
+          {
+            "event": "exitModal",
+            "capture": false,
+            "passive": false
+          }
+        ],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [
+          "tab-header",
+          "tab-content",
+          "profile-card-layout",
+          "profile-card",
+          "full-bio",
+          "kclsu-modal",
+          "tabs-container"
+        ],
+        "dependencyGraph": {
+          "profile-tabs": [
+            "tab-header",
+            "tab-content",
+            "profile-card-layout",
+            "profile-card",
+            "full-bio",
+            "kclsu-modal",
+            "tabs-container"
+          ],
+          "profile-card": [
+            "loading-spinner",
+            "flex-container"
+          ],
+          "full-bio": [
+            "kclsu-button",
+            "flex-container"
+          ],
+          "kclsu-button": [
+            "flex-container"
+          ],
+          "kclsu-modal": [
+            "modal-backdrop"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/buttons/primary-button/purple-button/purple-button.tsx",
+        "encapsulation": "shadow",
+        "tag": "purple-button",
+        "readme": "# purple-button\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "link",
+            "type": "string",
+            "mutable": false,
+            "attr": "link",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "whitetext",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "whitetext",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "elections-footer"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "elections-footer": [
+            "purple-button"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/quick-links/quick-link/quick-link.tsx",
+        "encapsulation": "none",
+        "tag": "quick-link",
+        "readme": "# quick-link\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "to",
+            "type": "string",
+            "mutable": false,
+            "attr": "to",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "'/'",
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [],
+        "dependencyGraph": {}
+      },
+      {
+        "filePath": "./src/components/quick-links/quick-links.tsx",
+        "encapsulation": "none",
+        "tag": "quick-links",
+        "readme": "# quick-links\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "name",
+            "type": "string",
+            "mutable": false,
+            "attr": "name",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "'quick access.'",
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [
+          "fullwidth-strip"
+        ],
+        "dependencyGraph": {
+          "quick-links": [
+            "fullwidth-strip"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/campaigns/show-support/show-support.tsx",
+        "encapsulation": "none",
+        "tag": "show-support",
+        "readme": "# show-support\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [
+          "page-content"
+        ],
+        "dependencyGraph": {
+          "show-support": [
+            "page-content"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/campaigns/show-support/support-option/support-option.tsx",
+        "encapsulation": "none",
+        "tag": "support-option",
+        "readme": "# support-option\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "heading",
+            "type": "string",
+            "mutable": false,
+            "attr": "heading",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "supportname",
+            "type": "string",
+            "mutable": false,
+            "attr": "supportname",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [],
+        "dependencyGraph": {}
+      },
+      {
+        "filePath": "./src/components/campaigns/show-support/support-progress/support-progress.tsx",
+        "encapsulation": "none",
+        "tag": "support-progress",
+        "readme": "# support-progress\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "current",
+            "type": "any",
+            "mutable": false,
+            "attr": "current",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "any"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "maxtotal",
+            "type": "any",
+            "mutable": false,
+            "attr": "maxtotal",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "75",
+            "values": [
+              {
+                "type": "any"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "supportname",
+            "type": "string",
+            "mutable": false,
+            "attr": "supportname",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [],
+        "dependencyGraph": {}
+      },
+      {
+        "filePath": "./src/components/tabs/primarytabs/tab-content/tab-content.tsx",
+        "encapsulation": "shadow",
+        "tag": "tab-content",
+        "readme": "# tab-content\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "active",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "active",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "false",
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "mutable": false,
+            "attr": "name",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "elections-candidates",
+          "profile-tabs"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "elections-candidates": [
+            "tab-content"
+          ],
+          "profile-tabs": [
+            "tab-content"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/tabs/primarytabs/tab-header/tab-header.tsx",
+        "encapsulation": "shadow",
+        "tag": "tab-header",
+        "readme": "# tab-header\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "active",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "active",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "false",
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "mutable": false,
+            "attr": "name",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [
+          {
+            "event": "selectTab",
+            "detail": "any",
+            "bubbles": true,
+            "cancelable": true,
+            "composed": true,
+            "docs": "",
+            "docsTags": []
+          }
+        ],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "elections-candidates",
+          "profile-tabs"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "elections-candidates": [
+            "tab-header"
+          ],
+          "profile-tabs": [
+            "tab-header"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/tabs/primarytabs/tabs-container.tsx",
+        "encapsulation": "shadow",
+        "tag": "tabs-container",
+        "readme": "# tabs-container\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "innertab",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "innertab",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "false",
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [
+          {
+            "event": "selectTab",
+            "capture": false,
+            "passive": false
+          }
+        ],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "elections-candidates",
+          "profile-tabs"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "elections-candidates": [
+            "tabs-container"
+          ],
+          "profile-tabs": [
+            "tabs-container"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/varsity/varsity-landing/varsity-landing.tsx",
+        "encapsulation": "shadow",
+        "tag": "varsity-landing",
+        "readme": "# varsity-landing\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "currentDate",
+            "type": "{ weekday: string; day: any; month: string; year: any; hours: any; minutes: any; }",
+            "mutable": false,
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "returnDate()",
+            "values": [
+              {
+                "type": "{ weekday: string; day: any; month: string; year: any; hours: any; minutes: any; }"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "year",
+            "type": "string",
+            "mutable": false,
+            "attr": "year",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [
+          {
+            "event": "exitModal",
+            "capture": false,
+            "passive": false
+          }
+        ],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [
+          "label-card",
+          "varsity-total-score",
+          "varsity-race",
+          "image-slider-auto",
+          "varsity-upcoming",
+          "flex-container",
+          "kclsu-modal",
+          "last-year-scores",
+          "image-fit-container"
+        ],
+        "dependencyGraph": {
+          "varsity-landing": [
+            "label-card",
+            "varsity-total-score",
+            "varsity-race",
+            "image-slider-auto",
+            "varsity-upcoming",
+            "flex-container",
+            "kclsu-modal",
+            "last-year-scores",
+            "image-fit-container"
+          ],
+          "varsity-total-score": [
+            "flex-container"
+          ],
+          "varsity-upcoming": [
+            "kclsu-modal",
+            "varsity-next-matches"
+          ],
+          "kclsu-modal": [
+            "modal-backdrop"
+          ],
+          "varsity-next-matches": [
+            "label-card"
+          ],
+          "last-year-scores": [
+            "flex-container",
+            "kclsu-modal"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/varsity/varsity-next-matches/varsity-next-matches.tsx",
+        "encapsulation": "shadow",
+        "tag": "varsity-next-matches",
+        "readme": "# varsity-next-matches\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "data",
+            "type": "any",
+            "mutable": false,
+            "attr": "data",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "any"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "varsity-upcoming"
+        ],
+        "dependencies": [
+          "label-card"
+        ],
+        "dependencyGraph": {
+          "varsity-next-matches": [
+            "label-card"
+          ],
+          "varsity-upcoming": [
+            "varsity-next-matches"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/varsity/varsity-landing/varsity-race/varsity-race.tsx",
+        "encapsulation": "shadow",
+        "tag": "varsity-race",
+        "readme": "# varsity-race\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "data",
+            "type": "any",
+            "mutable": false,
+            "attr": "data",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "any"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "target",
+            "type": "number",
+            "mutable": false,
+            "attr": "target",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "number"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "varsity-landing"
+        ],
+        "dependencies": [],
+        "dependencyGraph": {
+          "varsity-landing": [
+            "varsity-race"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/varsity/varsity-landing/varsity-total-score/varsity-total-score.tsx",
+        "encapsulation": "shadow",
+        "tag": "varsity-total-score",
+        "readme": "# varsity-total-score\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "scores",
+            "type": "any",
+            "mutable": false,
+            "attr": "scores",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "any"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "varsity-landing"
+        ],
+        "dependencies": [
+          "flex-container"
+        ],
+        "dependencyGraph": {
+          "varsity-total-score": [
+            "flex-container"
+          ],
+          "varsity-landing": [
+            "varsity-total-score"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/varsity/varsity-landing/varsity-upcoming/varsity-upcoming.tsx",
+        "encapsulation": "shadow",
+        "tag": "varsity-upcoming",
+        "readme": "# varsity-upcoming\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "data",
+            "type": "any",
+            "mutable": false,
+            "attr": "data",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "any"
+              }
+            ],
+            "optional": false,
+            "required": false
+          },
+          {
+            "name": "showall",
+            "type": "boolean",
+            "mutable": false,
+            "attr": "showall",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "default": "false",
+            "values": [
+              {
+                "type": "boolean"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [
+          {
+            "event": "exitModal",
+            "capture": false,
+            "passive": false
+          }
+        ],
+        "styles": [],
+        "slots": [],
+        "dependents": [
+          "varsity-landing"
+        ],
+        "dependencies": [
+          "kclsu-modal",
+          "varsity-next-matches"
+        ],
+        "dependencyGraph": {
+          "varsity-upcoming": [
+            "kclsu-modal",
+            "varsity-next-matches"
+          ],
+          "kclsu-modal": [
+            "modal-backdrop"
+          ],
+          "varsity-next-matches": [
+            "label-card"
+          ],
+          "varsity-landing": [
+            "varsity-upcoming"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/varsity/varsity-landing/varsity-weather/varsity-weather.tsx",
+        "encapsulation": "shadow",
+        "tag": "varsity-weather",
+        "readme": "# varsity-weather\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [
+          "flex-container"
+        ],
+        "dependencyGraph": {
+          "varsity-weather": [
+            "flex-container"
+          ]
+        }
+      },
+      {
+        "filePath": "./src/components/banners/video-banner/video-banner.tsx",
+        "encapsulation": "shadow",
+        "tag": "video-banner",
+        "readme": "# video-banner\n\n\n",
+        "docs": "",
+        "docsTags": [],
+        "usage": {},
+        "props": [
+          {
+            "name": "url",
+            "type": "string",
+            "mutable": false,
+            "attr": "url",
+            "reflectToAttr": false,
+            "docs": "",
+            "docsTags": [],
+            "values": [
+              {
+                "type": "string"
+              }
+            ],
+            "optional": false,
+            "required": false
+          }
+        ],
+        "methods": [],
+        "events": [],
+        "listeners": [],
+        "styles": [],
+        "slots": [],
+        "dependents": [],
+        "dependencies": [],
+        "dependencyGraph": {}
+      }
+    ]
+  }

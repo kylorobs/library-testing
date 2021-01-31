@@ -1,0 +1,31 @@
+# tab-content
+
+
+
+<!-- Auto Generated Below -->
+
+
+## Properties
+
+| Property | Attribute | Description | Type      | Default     |
+| -------- | --------- | ----------- | --------- | ----------- |
+| `active` | `active`  |             | `boolean` | `false`     |
+| `name`   | `name`    |             | `string`  | `undefined` |
+
+
+## Dependencies
+
+### Used by
+
+ - [profile-tabs](../../../profiles)
+
+### Graph
+```mermaid
+graph TD;
+  profile-tabs --> tab-content
+  style tab-content fill:#f9f,stroke:#333,stroke-width:4px
+```
+
+----------------------------------------------
+
+*Built with [StencilJS](https://stenciljs.com/)*
